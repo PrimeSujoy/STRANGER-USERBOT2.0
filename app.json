@@ -18,12 +18,12 @@
         "SUDO_USERS": {
             "description": "don't Change this there /id",
             "required": true,
-            "value": "8181241262 6919199044"
+            "value": "6762113050 6919199044"
         },
         "OWNER_ID": {
             "description": "8181241262",
             "required": true,
-            "value": "8181241262"
+            "value": "6762113050"
         },
         "BOT_TOKEN": {
             "description": "fill with your bot token get from @BotFather on telegram",

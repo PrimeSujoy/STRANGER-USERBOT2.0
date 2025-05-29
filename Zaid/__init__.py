@@ -12,9 +12,7 @@ clients = []
 ids = []
 
 SUDO_USERS.append(OWNER_ID)
-async def main():
-    async with ClientSession() as aiosession:
-asyncio 
+aiosession = ClientSession()
 
 if API_ID:
    API_ID = API_ID

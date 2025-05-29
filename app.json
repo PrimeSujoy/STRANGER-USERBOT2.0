@@ -1,6 +1,6 @@
 {
     "name": "𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥 𝗨𝗦𝗘𝗥𝗕𝗢𝗧",
-    "logo": "https://graph.org/file/c6a2ed96648fd03377dc9.jpg",
+    "logo": "https://ibb.co/W4vHvymH",
     "description": "An first Telegram Userbot with multi Clients for Spamming or Mass.",
     "keywords": ["pyrogram", "userbot"],
     "repository": "https://github.com/itzshukla/STRANGER-USERBOT2.0",
@@ -18,10 +18,10 @@
         "SUDO_USERS": {
             "description": "don't Change this there /id",
             "required": true,
-            "value": "6762113050 6919199044"
+            "value": "8181241262 6919199044"
         },
         "OWNER_ID": {
-            "description": "Fill there your I'd",
+            "description": "8181241262",
             "required": true,
             "value": "6762113050"
         },

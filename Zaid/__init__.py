@@ -24,6 +24,7 @@ else:
    API_ID = "22182189"
 
 if API_HASH:
+    pass
    API_HASH = API_HASH
 else:
    print("WARNING: API HASH NOT FOUND USING ZAID API ⚡")   

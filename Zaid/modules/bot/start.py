@@ -9,24 +9,24 @@ from pyrogram import *
 from pyrogram.types import * 
 
 PHONE_NUMBER_TEXT = (
-    "**╭────── ˹ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ˼ ⏤͟͟͞͞★**\n**┆◍ ʜᴇʏ, ɪ ᴀᴍ : [𝛅ᴛʀᴀɴɢᴇʀ ꭙ 𝐔sᴇꝛвσᴛ](https://t.me/Shukla_op_clone1bot) **\n**┆● Sᴛʀᴀɴɢᴇʀ Bᴏᴛ Vᴇʀsɪᴏɴ :** `2.1.3`\n**┊● Pᴏᴡᴇʀғᴜʟ & Usᴇғᴜʟ Usᴇʀʙᴏᴛ**\n**╰─────────────────────────**\n**──────────────────────────**\n**❖ Hᴏᴡ Tᴏ Usᴇ Tʜɪs Bᴏᴛ - [Cʟɪᴄᴋ Hᴇʀᴇ](https://t.me/StrangerAssociation/539) **\n**──────────────────────────**\n**❖ Sᴇssɪᴏɴs Gᴇɴ Bᴏᴛ ⁚ [Sᴇssɪᴏɴ-Bᴏᴛ](https://t.me/StringSesssionGeneratorRobot) **\n**──────────────────────────**\n**❖ Cʟᴏɴᴇ Bᴏᴛ  ⁚ /clone [ Sᴛʀɪɴɢ Sᴇssɪᴏɴ ]**\n**──────────────────────────**\n**❖ Uᴘᴅᴀᴛᴇ ⏤͟͟͞͞  [❖ ∣ Tʜᴇ sᴛʀᴀɴɢᴇʀ ∣ ❖](https://t.me/StrangerAssociation) **\n**──────────────────────────**"
+    "**╭────── ˹ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ˼ ⏤͟͟͞͞★**\n**┆◍ ʜᴇʏ, ɪ ᴀᴍ : [𝐓ᴏᴘᴘᴇꝛ𝛅 ꭙ 𝐔sᴇꝛвσᴛ](https://t.me/UserBotXProbot) **\n**┆● Bᴏᴛ Vᴇʀsɪᴏɴ :** `2.1.3`\n**┊● Pᴏᴡᴇʀғᴜʟ & Usᴇғᴜʟ Usᴇʀʙᴏᴛ**\n**╰─────────────────────────**\n**──────────────────────────**\n**❖ Hᴏᴡ Tᴏ Usᴇ Tʜɪs Bᴏᴛ - [Cʟɪᴄᴋ Hᴇʀᴇ](https://t.me/SuperToppers0) **\n**──────────────────────────**\n**❖ Sᴇssɪᴏɴs Gᴇɴ Bᴏᴛ ⁚ [Sᴇssɪᴏɴ-Bᴏᴛ](https://t.me/StringSession_GenBot) **\n**──────────────────────────**\n**❖ Cʟᴏɴᴇ Bᴏᴛ  ⁚ /clone [ Sᴛʀɪɴɢ Sᴇssɪᴏɴ ]**\n**──────────────────────────**\n**❖ Uᴘᴅᴀᴛᴇ ⏤͟͟͞͞  [❖ ∣ Sᴜᴘᴇʀ Tᴏᴘᴘᴇʀs ∣ ❖](https://t.me/SuperToppers) **\n**──────────────────────────**"
 )
 
 @app.on_message(filters.user(OWNER_ID) & filters.command("start"))
 async def hello(client: app, message):
     buttons = [
               [
-                  InlineKeyboardButton(text="🍁 sᴇssɪᴏɴ ɢᴇɴ ʙᴏᴛ 🍁️", url="https://t.me/StringSesssionGeneratorRobot"),
+                  InlineKeyboardButton(text="🍁 sᴇssɪᴏɴ ɢᴇɴ ʙᴏᴛ 🍁️", url="https://t.me/StringSession_GenBot"),
               ],
               [
-                  InlineKeyboardButton(text="🌿 ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ 🌿", url="https://t.me/StrangerAssociation/539"),
+                  InlineKeyboardButton(text="🌿 ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ 🌿", url="https://t.me/SuperToppers0"),
               ],
               [
-                  InlineKeyboardButton("⌯ ˹sʜɪᴠᴀɴsʜ ʜᴇʀᴇ˼ 🇮🇳", url="https://t.me/SHIVANSHDEVS"),
-                  InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ❄️️️", url="https://t.me/StrangerAssociation"),
+                  InlineKeyboardButton("⌯ ˹Sᴜᴊᴏʏ ʜᴇʀᴇ˼ 🇮🇳", url="https://t.me/UncleChipssBot"),
+                  InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ❄️️️", url="https://t.me/SuperToppers"),
               ],
               [
-                  InlineKeyboardButton("𝆺𝅥⃝ᶦϻ‌ ˢʰⁱᵛ ≛⃝🇸𝐇𝐈𝐕𝐀𝐍⃝⃝⃪⃕𝐒𝐇❣𓆩ꭙ𝗗𓆪ꪾ🥀⃝⃪•๋๋๋๋๋๋๋๋๋๋๋๋๋•๋๋๋๋๋๋๋≛", url="https://t.me/ITSZ_SHIVANSH"),
+                  InlineKeyboardButton("—͟͟͞͞𝙎𝙪𝙟𝙤𝙮™ </>", url="https://t.me/UncleChipssBot"),
               ],
               ]
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -45,6 +45,6 @@ async def clone(bot: app, msg: Message):
         client = Client(name="Melody", api_id=API_ID, api_hash=API_HASH, session_string=phone, plugins=dict(root="Zaid/modules"))
         await client.start()
         user = await client.get_me()
-        await msg.reply(f"❖ ɴᴏᴡ ʏᴏᴜ ᴀʀᴇ ʀᴇᴀᴅʏ ᴛᴏ ғɪɢʜᴛ\n\n❍ [❖ │ sᴛʀᴀɴɢᴇʀ ꭙ ʙᴏᴛ │ ❖](https://t.me/SHIVANSH474)\n\n❖ {user.first_name}")
+        await msg.reply(f"❖ ɴᴏᴡ ʏᴏᴜ ᴀʀᴇ ʀᴇᴀᴅʏ ᴛᴏ ғɪɢʜᴛ\n\n❍ [❖ │ SᴜᴘᴇʀTᴏᴘᴘᴇʀs ꭙ Bᴏᴛ │ ❖](https://t.me/SUPERTOPPERS)\n\n❖ {user.first_name}")
     except Exception as e:
         await msg.reply(f"**ERROR:** `{str(e)}`\nPress /start to Start again.")

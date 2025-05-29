@@ -2,7 +2,6 @@ from pyrogram import Client
 from config import API_ID, API_HASH, SUDO_USERS, OWNER_ID, BOT_TOKEN, STRING_SESSION1, STRING_SESSION2, STRING_SESSION3, STRING_SESSION4, STRING_SESSION5, STRING_SESSION6, STRING_SESSION7, STRING_SESSION8, STRING_SESSION9, STRING_SESSION10
 from datetime import datetime
 import time
-import asyncio
 from aiohttp import ClientSession
 
 StartTime = time.time()
@@ -15,11 +14,7 @@ ids = []
 SUDO_USERS.append(OWNER_ID)
 async def main():
     async with ClientSession() as aiosession:
-        # Your async code here
-
-# Ensure the event loop is running
-if __name__ == "__main__":
-    asyncio.run(main())
+asyncio 
 
 if API_ID:
    API_ID = API_ID

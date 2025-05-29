@@ -2,7 +2,6 @@ from pyrogram import Client
 from config import API_ID, API_HASH, SUDO_USERS, OWNER_ID, BOT_TOKEN, STRING_SESSION1, STRING_SESSION2, STRING_SESSION3, STRING_SESSION4, STRING_SESSION5, STRING_SESSION6, STRING_SESSION7, STRING_SESSION8, STRING_SESSION9, STRING_SESSION10
 from datetime import datetime
 import time
-from aiohttp import ClientSession
 
 StartTime = time.time()
 START_TIME = datetime.now()
@@ -13,22 +12,17 @@ ids = []
 
 SUDO_USERS.append(OWNER_ID)
 
-async def some_async_function():
-    async with aiohttp.ClientSession() as aiosession:
-        # your usage here
-
 if API_ID:
    API_ID = API_ID
 else:
    print("WARNING: API ID NOT FOUND USING ZAID API ⚡")
-   API_ID = "22182189"
+   API_ID = "6435225"
 
 if API_HASH:
-    pass
    API_HASH = API_HASH
 else:
    print("WARNING: API HASH NOT FOUND USING ZAID API ⚡")   
-   API_HASH = "5e7c4088f8e23d0ab61e29ae11960bf5"
+   API_HASH = "4e984ea35f854762dcde906dce426c2d"
 
 if not BOT_TOKEN:
    print("WARNING: BOT TOKEN NOT FOUND PLZ ADD ⚡")   

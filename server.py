@@ -10,4 +10,4 @@ class Greeting (Resource):
         return "Zaid Userbot is Up & Running!"
 
 api.add_resource(Greeting, '/')
-git clone https://github.com/PrimeSujoy/STRANGER-USERBOT2.0
+app.run(host="0.0.0.0", port=os.environ.get("PORT", 8003))

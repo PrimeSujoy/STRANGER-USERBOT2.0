@@ -12,7 +12,7 @@ API_HASH = getenv("API_HASH", "5e7c4088f8e23d0ab61e29ae11960bf5") #optional
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "8181241262").split()))
 OWNER_ID = int(getenv("OWNER_ID","8181241262"))
 MONGO_URL = getenv("MONGO_URL")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "8012072801:AAEUxAf_7rlszHVIPh0uZZi5PjU5vSkW98g")
 ALIVE_PIC = getenv("ALIVE_PIC", 'https://ibb.co/wFSS8sJ7')
 ALIVE_TEXT = getenv("ALIVE_TEXT")
 PM_LOGGER = getenv("PM_LOGGER")
@@ -21,7 +21,7 @@ GIT_TOKEN = getenv("GIT_TOKEN") #personal access token
 REPO_URL = getenv("REPO_URL", "https://github.com/itzshukla/STRANGER-USERBOT2.0")
 BRANCH = getenv("BRANCH", "master") #don't change
  
-STRING_SESSION1 = getenv("STRING_SESSION1", "")
+STRING_SESSION1 = getenv("STRING_SESSION1", "1BVtsOKIBu3Jh5-_0ETAZE-TbtkSPIZ2xQBGhIXgc0BVMOEm8K-Okhn4HGMxFhefzBev07vjaPOmW3Sp0AbmvdRbqhmxrR4EPJkAMBtkOZ5Ss1_SoU5_b8RYJb4W4Nc_fUN_fbwDvKdg4mo_KN0o_Yg90xaEPSwEuCmQUeQbRVFdgoI5tOnGeKqbIipR3O5ahd0vykXm5MHPH9jTHyhMjDlakUoGugTUDl5GQlHesj2dKHU2d-g1QgvDduOTWh4gMEo6DrrAbdhmi0k3l4iz1A4PA6Li4OG0ZL-Kkv7a6Ke2TExPY9zHIZ811knfixiwchEbkdBDOvmkSz-FgTBUbnEly1l70LDA=")
 STRING_SESSION2 = getenv("STRING_SESSION2", "")
 STRING_SESSION3 = getenv("STRING_SESSION3", "")
 STRING_SESSION4 = getenv("STRING_SESSION4", "")

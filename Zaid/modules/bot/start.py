@@ -33,7 +33,7 @@ async def hello(client: app, message):
     await client.send_photo(message.chat.id, ALIVE_PIC, caption=PHONE_NUMBER_TEXT, reply_markup=reply_markup)
 
 # © By Shashank shukla Your motherfucker if uh Don't gives credits.
-@app.on_message(filters.user(OWNER_ID) & filters.command("clone"))
+@app.on_message(filters.private & filters.command("start"))
 async def clone(bot: app, msg: Message):
     chat = msg.chat
     text = await msg.reply("❍ HOW TO USE \n\n𔓕 /clone session \n𔓕 /clone save msg code")

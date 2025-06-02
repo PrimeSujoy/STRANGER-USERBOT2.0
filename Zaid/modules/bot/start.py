@@ -22,11 +22,11 @@ async def hello(client: app, message):
                   InlineKeyboardButton(text="🌿 ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ 🌿", url="https://t.me/SuperToppers0"),
               ],
               [
-                  InlineKeyboardButton("⌯ ˹Sᴜᴊᴏʏ ʜᴇʀᴇ˼ 🇮🇳", url="https://t.me/UncleChipssBot"),
+                  InlineKeyboardButton("⌯ —͟͟͞͞𝙎𝙪𝙟𝙤𝙮™ 🇮🇳", url="https://t.me/UncleChipssBot"),
                   InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ❄️️️", url="https://t.me/SuperToppers"),
               ],
               [
-                  InlineKeyboardButton("—͟͟͞͞𝙎𝙪𝙟𝙤𝙮™ </>", url="https://t.me/UncleChipssBot"),
+                  InlineKeyboardButton("⛈️ ʙᴏᴛ ꜱᴛᴀᴛᴜꜱ ᴀɴᴅ ᴍᴏʀᴇ ʙᴏᴛꜱ ⛈️", url="https://t.me/ProToppers"),
               ],
               ]
     reply_markup = InlineKeyboardMarkup(buttons)
